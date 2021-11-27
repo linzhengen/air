@@ -279,3 +279,5 @@ func killByPid(pid int) error {
 	}
 	return proc.Kill()
 }
+
+// tring to kill a process and it's children by it's pid.
